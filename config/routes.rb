@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-  resources :records
-  resources :artists
+  namespace :api do
+    namespace :v1 do
+      resources :records
+      resources :artists
+    end
+  end
+
   # EXAMPLE HTML ROUTE
   # get "/photos" => "photos#index"
 
