@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :records
+  resources :artists
   # EXAMPLE HTML ROUTE
   # get "/photos" => "photos#index"
 

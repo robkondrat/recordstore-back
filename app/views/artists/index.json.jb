@@ -1,0 +1,7 @@
+@artists.map do |artist|
+  {
+    id: artist.id,
+    name: artist.name,
+    url: artist_url(artist, format: :json)
+  }
+end

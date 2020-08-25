@@ -1,0 +1,6 @@
+{
+  id: @artist.id,
+  name: @artist.name,
+  created_at: @artist.created_at,
+  updated_at: @artist.updated_at
+}
